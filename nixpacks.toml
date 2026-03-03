@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["chromium", "nss", "nspr", "atk", "cups", "dbus", "expat", "libdrm", "libxcb", "libxkbcommon", "mesa", "pango", "cairo", "alsa-lib"]
+nixPkgs = ["python311", "chromium", "nss", "nspr", "atk", "at-spi2-atk", "cups", "libdrm", "xorg.libxcb", "xorg.libX11", "xorg.libXcomposite", "xorg.libXdamage", "xorg.libXext", "xorg.libXfixes", "xorg.libXrandr", "libxkbcommon", "mesa", "pango", "cairo", "alsa-lib", "dbus", "expat", "glib"]
 
 [phases.install]
 cmds = ["pip install -r requirements.txt"]
